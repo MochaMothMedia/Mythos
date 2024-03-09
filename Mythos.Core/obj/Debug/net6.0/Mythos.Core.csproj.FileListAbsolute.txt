@@ -1,0 +1,12 @@
+A:\Development\Applications\Mythos\Mythos.Core\bin\Debug\net6.0\Mythos.Core.deps.json
+A:\Development\Applications\Mythos\Mythos.Core\bin\Debug\net6.0\Mythos.Core.dll
+A:\Development\Applications\Mythos\Mythos.Core\bin\Debug\net6.0\Mythos.Core.pdb
+A:\Development\Applications\Mythos\Mythos.Core\obj\Debug\net6.0\Mythos.Core.csproj.AssemblyReference.cache
+A:\Development\Applications\Mythos\Mythos.Core\obj\Debug\net6.0\Mythos.Core.GeneratedMSBuildEditorConfig.editorconfig
+A:\Development\Applications\Mythos\Mythos.Core\obj\Debug\net6.0\Mythos.Core.AssemblyInfoInputs.cache
+A:\Development\Applications\Mythos\Mythos.Core\obj\Debug\net6.0\Mythos.Core.AssemblyInfo.cs
+A:\Development\Applications\Mythos\Mythos.Core\obj\Debug\net6.0\Mythos.Core.csproj.CoreCompileInputs.cache
+A:\Development\Applications\Mythos\Mythos.Core\obj\Debug\net6.0\Mythos.Core.dll
+A:\Development\Applications\Mythos\Mythos.Core\obj\Debug\net6.0\refint\Mythos.Core.dll
+A:\Development\Applications\Mythos\Mythos.Core\obj\Debug\net6.0\Mythos.Core.pdb
+A:\Development\Applications\Mythos\Mythos.Core\obj\Debug\net6.0\ref\Mythos.Core.dll
