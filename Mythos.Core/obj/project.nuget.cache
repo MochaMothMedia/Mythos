@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Lbf6fl3pzSQmWfQ7gti5eLNx/xvLhVii1Cxj98r86PdBjx7n9iOW+cf1SwQo+6OA5NVjsDf//cy+R5EApBdnIA==",
+  "success": true,
+  "projectFilePath": "A:\\Development\\Applications\\Mythos\\Mythos.Core\\Mythos.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Fedora_Dev\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\Fedora_Dev\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
