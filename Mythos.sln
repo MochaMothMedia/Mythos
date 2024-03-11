@@ -11,6 +11,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mythos.Core", "Mythos.Core\Mythos.Core.csproj", "{3F443AAE-06B7-4886-8B7C-8BC487BECA5C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A2AA7A4A-CE33-49E8-870A-33BB9A34E32F}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mythos.ConsoleLogging", "Mythos.ConsoleLogging\Mythos.ConsoleLogging.csproj", "{1DA3ECFC-3102-4318-BA5B-67AB091234A9}"
 EndProject
