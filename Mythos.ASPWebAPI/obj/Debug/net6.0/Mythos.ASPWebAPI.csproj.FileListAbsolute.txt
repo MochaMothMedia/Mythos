@@ -35,3 +35,5 @@ A:\Development\Applications\Mythos\Mythos.ASPWebAPI\obj\Debug\net6.0\refint\Myth
 A:\Development\Applications\Mythos\Mythos.ASPWebAPI\obj\Debug\net6.0\Mythos.ASPWebAPI.pdb
 A:\Development\Applications\Mythos\Mythos.ASPWebAPI\obj\Debug\net6.0\Mythos.ASPWebAPI.genruntimeconfig.cache
 A:\Development\Applications\Mythos\Mythos.ASPWebAPI\obj\Debug\net6.0\ref\Mythos.ASPWebAPI.dll
+A:\Development\Applications\Mythos\Mythos.ASPWebAPI\bin\Debug\net6.0\Mythos.ConsoleLogging.dll
+A:\Development\Applications\Mythos\Mythos.ASPWebAPI\bin\Debug\net6.0\Mythos.ConsoleLogging.pdb

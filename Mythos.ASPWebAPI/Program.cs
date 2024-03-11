@@ -1,10 +1,19 @@
+using Mythos.ASPWebAPI.HostedService;
+
 namespace Mythos.ASPWebAPI
 {
 	public class Program
 	{
 		public static void Main(string[] args)
 		{
-			Console.WriteLine("Please use a launcher! Dependency Injection will fail without one.");
+			Host.CreateDefaultBuilder(args)
+				.ConfigureServices((hostContext, services) =>
+				{
+					services.AddHostedService<HostService>();
+					services.AddPlugins();
+				})
+				.Build()
+				.Run();
 		}
 	}
 }
