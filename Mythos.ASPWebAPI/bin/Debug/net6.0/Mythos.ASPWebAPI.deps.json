@@ -9,6 +9,7 @@
       "Mythos.ASPWebAPI/1.0.0": {
         "dependencies": {
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.19.4",
+          "Mythos.ConsoleLogging": "1.0.0",
           "Mythos.Core": "1.0.0",
           "Swashbuckle.AspNetCore": "6.5.0",
           "System.ComponentModel.Composition": "8.0.0"
@@ -90,6 +91,15 @@
             "assemblyVersion": "8.0.0.0",
             "fileVersion": "8.0.23.53103"
           }
+        }
+      },
+      "Mythos.ConsoleLogging/1.0.0": {
+        "dependencies": {
+          "Mythos.Core": "1.0.0",
+          "System.ComponentModel.Composition": "8.0.0"
+        },
+        "runtime": {
+          "Mythos.ConsoleLogging.dll": {}
         }
       },
       "Mythos.Core/1.0.0": {
@@ -177,6 +187,11 @@
       "sha512": "sha512-bGhUX5BTivJ9Wax0qnJy7uGq7dn/TQkEpJ2Fpu1etg8dbPwyDkUzNPc1d3I2/jUr9y4wDI3a1dkSmi8X21Pzbw==",
       "path": "system.componentmodel.composition/8.0.0",
       "hashPath": "system.componentmodel.composition.8.0.0.nupkg.sha512"
+    },
+    "Mythos.ConsoleLogging/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Mythos.Core/1.0.0": {
       "type": "project",

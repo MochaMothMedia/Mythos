@@ -147,6 +147,20 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Mythos.ConsoleLogging/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Mythos.Core": "1.0.0",
+          "System.ComponentModel.Composition": "8.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mythos.ConsoleLogging.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mythos.ConsoleLogging.dll": {}
+        }
+      },
       "Mythos.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -672,6 +686,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Mythos.ConsoleLogging/1.0.0": {
+      "type": "project",
+      "path": "../Mythos.ConsoleLogging/Mythos.ConsoleLogging.csproj",
+      "msbuildProject": "../Mythos.ConsoleLogging/Mythos.ConsoleLogging.csproj"
+    },
     "Mythos.Core/1.0.0": {
       "type": "project",
       "path": "../Mythos.Core/Mythos.Core.csproj",
@@ -681,6 +700,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.19.4",
+      "Mythos.ConsoleLogging >= 1.0.0",
       "Mythos.Core >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0",
       "System.ComponentModel.Composition >= 8.0.0"
@@ -719,6 +739,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "A:\\Development\\Applications\\Mythos\\Mythos.ConsoleLogging\\Mythos.ConsoleLogging.csproj": {
+              "projectPath": "A:\\Development\\Applications\\Mythos\\Mythos.ConsoleLogging\\Mythos.ConsoleLogging.csproj"
+            },
             "A:\\Development\\Applications\\Mythos\\Mythos.Core\\Mythos.Core.csproj": {
               "projectPath": "A:\\Development\\Applications\\Mythos\\Mythos.Core\\Mythos.Core.csproj"
             }

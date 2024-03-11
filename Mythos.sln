@@ -3,18 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mythos.ConsoleLauncher", "Mythos.ConsoleLauncher\Mythos.ConsoleLauncher.csproj", "{8CB6486D-56CB-4962-8680-EA9524C1C42C}"
-	ProjectSection(ProjectDependencies) = postProject
-		{3F443AAE-06B7-4886-8B7C-8BC487BECA5C} = {3F443AAE-06B7-4886-8B7C-8BC487BECA5C}
-		{A985DCA2-B40D-4C38-8652-ABA806612CC5} = {A985DCA2-B40D-4C38-8652-ABA806612CC5}
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mythos.ASPWebAPI", "Mythos.ASPWebAPI\Mythos.ASPWebAPI.csproj", "{A985DCA2-B40D-4C38-8652-ABA806612CC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mythos.ASPWebAPI", "Mythos.ASPWebAPI\Mythos.ASPWebAPI.csproj", "{A985DCA2-B40D-4C38-8652-ABA806612CC5}"
 	ProjectSection(ProjectDependencies) = postProject
 		{3F443AAE-06B7-4886-8B7C-8BC487BECA5C} = {3F443AAE-06B7-4886-8B7C-8BC487BECA5C}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mythos.Core", "Mythos.Core\Mythos.Core.csproj", "{3F443AAE-06B7-4886-8B7C-8BC487BECA5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mythos.Core", "Mythos.Core\Mythos.Core.csproj", "{3F443AAE-06B7-4886-8B7C-8BC487BECA5C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A2AA7A4A-CE33-49E8-870A-33BB9A34E32F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mythos.ConsoleLogging", "Mythos.ConsoleLogging\Mythos.ConsoleLogging.csproj", "{1DA3ECFC-3102-4318-BA5B-67AB091234A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,10 +20,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8CB6486D-56CB-4962-8680-EA9524C1C42C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8CB6486D-56CB-4962-8680-EA9524C1C42C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8CB6486D-56CB-4962-8680-EA9524C1C42C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8CB6486D-56CB-4962-8680-EA9524C1C42C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A985DCA2-B40D-4C38-8652-ABA806612CC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A985DCA2-B40D-4C38-8652-ABA806612CC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A985DCA2-B40D-4C38-8652-ABA806612CC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -34,6 +28,10 @@ Global
 		{3F443AAE-06B7-4886-8B7C-8BC487BECA5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F443AAE-06B7-4886-8B7C-8BC487BECA5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F443AAE-06B7-4886-8B7C-8BC487BECA5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DA3ECFC-3102-4318-BA5B-67AB091234A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DA3ECFC-3102-4318-BA5B-67AB091234A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DA3ECFC-3102-4318-BA5B-67AB091234A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DA3ECFC-3102-4318-BA5B-67AB091234A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
