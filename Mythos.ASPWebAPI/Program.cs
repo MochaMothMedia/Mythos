@@ -11,8 +11,6 @@ namespace Mythos.ASPWebAPI
 			WebApplicationBuilder builder = WebApplication.CreateBuilder();
 			builder.Services.AddHostedService<HostService>();
 			builder.Services.AddPlugins();
-
-			// Add services to the container.
 			builder.Services.AddAuthorization();
 
 			// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -32,14 +30,12 @@ namespace Mythos.ASPWebAPI
 			});
 
 			builder.Services.AddHealthChecks();
-
 			builder.Services.AddControllers().AddNewtonsoftJson();
-
+			
 			WebApplication app = builder.Build();
 
 			app.MapHealthChecks("/health");
 
-			// Configure the HTTP request pipeline.
 			if (app.Environment.IsDevelopment())
 			{
 				app.UseSwagger();
@@ -50,11 +46,8 @@ namespace Mythos.ASPWebAPI
 			}
 
 			app.UseHttpsRedirection();
-
 			app.UseAuthorization();
-
 			app.MapControllers();
-
 			app.Run();
 		}
 	}
