@@ -4,6 +4,139 @@
     "A:\\Development\\Applications\\Mythos\\Mythos.ASPWebAPI\\Mythos.ASPWebAPI.csproj": {}
   },
   "projects": {
+    "A:\\Development\\Applications\\Mythos\\Mythos.Activities.Model\\Mythos.Activities.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "A:\\Development\\Applications\\Mythos\\Mythos.Activities.Model\\Mythos.Activities.Model.csproj",
+        "projectName": "Mythos.Activities.Model",
+        "projectPath": "A:\\Development\\Applications\\Mythos\\Mythos.Activities.Model\\Mythos.Activities.Model.csproj",
+        "packagesPath": "C:\\Users\\Fedora_Dev\\.nuget\\packages\\",
+        "outputPath": "A:\\Development\\Applications\\Mythos\\Mythos.Activities.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Fedora_Dev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "A:\\Development\\Applications\\Mythos\\Mythos.Activities\\Mythos.Activities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "A:\\Development\\Applications\\Mythos\\Mythos.Activities\\Mythos.Activities.csproj",
+        "projectName": "Mythos.Activities",
+        "projectPath": "A:\\Development\\Applications\\Mythos\\Mythos.Activities\\Mythos.Activities.csproj",
+        "packagesPath": "C:\\Users\\Fedora_Dev\\.nuget\\packages\\",
+        "outputPath": "A:\\Development\\Applications\\Mythos\\Mythos.Activities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Fedora_Dev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "A:\\Development\\Applications\\Mythos\\Mythos.Activities.Model\\Mythos.Activities.Model.csproj": {
+                "projectPath": "A:\\Development\\Applications\\Mythos\\Mythos.Activities.Model\\Mythos.Activities.Model.csproj"
+              },
+              "A:\\Development\\Applications\\Mythos\\Mythos.Core\\Mythos.Core.csproj": {
+                "projectPath": "A:\\Development\\Applications\\Mythos\\Mythos.Core\\Mythos.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.ComponentModel.Composition": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "A:\\Development\\Applications\\Mythos\\Mythos.ASPWebAPI\\Mythos.ASPWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -33,11 +166,20 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "A:\\Development\\Applications\\Mythos\\Mythos.Activities\\Mythos.Activities.csproj": {
+                "projectPath": "A:\\Development\\Applications\\Mythos\\Mythos.Activities\\Mythos.Activities.csproj"
+              },
               "A:\\Development\\Applications\\Mythos\\Mythos.ConsoleLogging\\Mythos.ConsoleLogging.csproj": {
                 "projectPath": "A:\\Development\\Applications\\Mythos\\Mythos.ConsoleLogging\\Mythos.ConsoleLogging.csproj"
               },
               "A:\\Development\\Applications\\Mythos\\Mythos.Core\\Mythos.Core.csproj": {
                 "projectPath": "A:\\Development\\Applications\\Mythos\\Mythos.Core\\Mythos.Core.csproj"
+              },
+              "A:\\Development\\Applications\\Mythos\\Mythos.MemoryDatabase\\Mythos.MemoryDatabase.csproj": {
+                "projectPath": "A:\\Development\\Applications\\Mythos\\Mythos.MemoryDatabase\\Mythos.MemoryDatabase.csproj"
+              },
+              "A:\\Development\\Applications\\Mythos\\Mythos.RequestMetadataManagement\\Mythos.RequestMetadataManagement.csproj": {
+                "projectPath": "A:\\Development\\Applications\\Mythos\\Mythos.RequestMetadataManagement\\Mythos.RequestMetadataManagement.csproj"
               }
             }
           }
@@ -52,9 +194,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.28, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.19.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -200,6 +350,222 @@
           "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "A:\\Development\\Applications\\Mythos\\Mythos.MemoryDatabase\\Mythos.MemoryDatabase.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "A:\\Development\\Applications\\Mythos\\Mythos.MemoryDatabase\\Mythos.MemoryDatabase.csproj",
+        "projectName": "Mythos.MemoryDatabase",
+        "projectPath": "A:\\Development\\Applications\\Mythos\\Mythos.MemoryDatabase\\Mythos.MemoryDatabase.csproj",
+        "packagesPath": "C:\\Users\\Fedora_Dev\\.nuget\\packages\\",
+        "outputPath": "A:\\Development\\Applications\\Mythos\\Mythos.MemoryDatabase\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Fedora_Dev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "A:\\Development\\Applications\\Mythos\\Mythos.Activities.Model\\Mythos.Activities.Model.csproj": {
+                "projectPath": "A:\\Development\\Applications\\Mythos\\Mythos.Activities.Model\\Mythos.Activities.Model.csproj"
+              },
+              "A:\\Development\\Applications\\Mythos\\Mythos.Core\\Mythos.Core.csproj": {
+                "projectPath": "A:\\Development\\Applications\\Mythos\\Mythos.Core\\Mythos.Core.csproj"
+              },
+              "A:\\Development\\Applications\\Mythos\\Mythos.Utilities\\Mythos.Utilities.csproj": {
+                "projectPath": "A:\\Development\\Applications\\Mythos\\Mythos.Utilities\\Mythos.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.ComponentModel.Composition": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "A:\\Development\\Applications\\Mythos\\Mythos.RequestMetadataManagement\\Mythos.RequestMetadataManagement.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "A:\\Development\\Applications\\Mythos\\Mythos.RequestMetadataManagement\\Mythos.RequestMetadataManagement.csproj",
+        "projectName": "Mythos.RequestMetadataManagement",
+        "projectPath": "A:\\Development\\Applications\\Mythos\\Mythos.RequestMetadataManagement\\Mythos.RequestMetadataManagement.csproj",
+        "packagesPath": "C:\\Users\\Fedora_Dev\\.nuget\\packages\\",
+        "outputPath": "A:\\Development\\Applications\\Mythos\\Mythos.RequestMetadataManagement\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Fedora_Dev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "A:\\Development\\Applications\\Mythos\\Mythos.Core\\Mythos.Core.csproj": {
+                "projectPath": "A:\\Development\\Applications\\Mythos\\Mythos.Core\\Mythos.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.ComponentModel.Composition": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "A:\\Development\\Applications\\Mythos\\Mythos.Utilities\\Mythos.Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "A:\\Development\\Applications\\Mythos\\Mythos.Utilities\\Mythos.Utilities.csproj",
+        "projectName": "Mythos.Utilities",
+        "projectPath": "A:\\Development\\Applications\\Mythos\\Mythos.Utilities\\Mythos.Utilities.csproj",
+        "packagesPath": "C:\\Users\\Fedora_Dev\\.nuget\\packages\\",
+        "outputPath": "A:\\Development\\Applications\\Mythos\\Mythos.Utilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Fedora_Dev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "A:\\Development\\Applications\\Mythos\\Mythos.Core\\Mythos.Core.csproj": {
+                "projectPath": "A:\\Development\\Applications\\Mythos\\Mythos.Core\\Mythos.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.ComponentModel.Composition": {
               "target": "Package",
               "version": "[8.0.0, )"
             }

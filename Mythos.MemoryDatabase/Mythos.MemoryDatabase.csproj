@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.ComponentModel.Composition" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mythos.Activities.Model\Mythos.Activities.Model.csproj" />
+    <ProjectReference Include="..\Mythos.Core\Mythos.Core.csproj" />
+    <ProjectReference Include="..\Mythos.Utilities\Mythos.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>

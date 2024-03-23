@@ -6,17 +6,31 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>62340832-33ed-4367-ba66-636b14e5d82a</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <NoWarn>1701;1702</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <NoWarn>1701;1702</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.28" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.4" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
     <PackageReference Include="System.ComponentModel.Composition" Version="8.0.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Mythos.Activities\Mythos.Activities.csproj" />
     <ProjectReference Include="..\Mythos.ConsoleLogging\Mythos.ConsoleLogging.csproj" />
     <ProjectReference Include="..\Mythos.Core\Mythos.Core.csproj" />
+    <ProjectReference Include="..\Mythos.MemoryDatabase\Mythos.MemoryDatabase.csproj" />
+    <ProjectReference Include="..\Mythos.RequestMetadataManagement\Mythos.RequestMetadataManagement.csproj" />
   </ItemGroup>
 
 </Project>

@@ -17,6 +17,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mythos.ConsoleLogging", "Mythos.ConsoleLogging\Mythos.ConsoleLogging.csproj", "{1DA3ECFC-3102-4318-BA5B-67AB091234A9}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mythos.MemoryDatabase", "Mythos.MemoryDatabase\Mythos.MemoryDatabase.csproj", "{79AF4083-EF9F-4F7F-9D47-EED93B801FF3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mythos.Activities", "Mythos.Activities\Mythos.Activities.csproj", "{2C5F6F55-817A-4FED-9B42-20CBE3F84158}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mythos.Activities.Model", "Mythos.Activities.Model\Mythos.Activities.Model.csproj", "{B27B0CE2-5341-4D5B-95AF-0FDAB8013652}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mythos.Utilities", "Mythos.Utilities\Mythos.Utilities.csproj", "{99518B26-5D53-4ACF-8E67-0F4A097EA942}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mythos.RequestMetadataManagement", "Mythos.RequestMetadataManagement\Mythos.RequestMetadataManagement.csproj", "{2F788B1D-8764-4E08-8FA5-E12818E4A9C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +45,26 @@ Global
 		{1DA3ECFC-3102-4318-BA5B-67AB091234A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DA3ECFC-3102-4318-BA5B-67AB091234A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DA3ECFC-3102-4318-BA5B-67AB091234A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79AF4083-EF9F-4F7F-9D47-EED93B801FF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79AF4083-EF9F-4F7F-9D47-EED93B801FF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79AF4083-EF9F-4F7F-9D47-EED93B801FF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79AF4083-EF9F-4F7F-9D47-EED93B801FF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C5F6F55-817A-4FED-9B42-20CBE3F84158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C5F6F55-817A-4FED-9B42-20CBE3F84158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C5F6F55-817A-4FED-9B42-20CBE3F84158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C5F6F55-817A-4FED-9B42-20CBE3F84158}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B27B0CE2-5341-4D5B-95AF-0FDAB8013652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B27B0CE2-5341-4D5B-95AF-0FDAB8013652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B27B0CE2-5341-4D5B-95AF-0FDAB8013652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B27B0CE2-5341-4D5B-95AF-0FDAB8013652}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99518B26-5D53-4ACF-8E67-0F4A097EA942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99518B26-5D53-4ACF-8E67-0F4A097EA942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99518B26-5D53-4ACF-8E67-0F4A097EA942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99518B26-5D53-4ACF-8E67-0F4A097EA942}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F788B1D-8764-4E08-8FA5-E12818E4A9C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F788B1D-8764-4E08-8FA5-E12818E4A9C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F788B1D-8764-4E08-8FA5-E12818E4A9C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F788B1D-8764-4E08-8FA5-E12818E4A9C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

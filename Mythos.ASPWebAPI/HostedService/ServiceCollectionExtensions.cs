@@ -1,5 +1,4 @@
-﻿using Microsoft.Extensions.DependencyInjection;
-using System.ComponentModel.Composition.Primitives;
+﻿using System.ComponentModel.Composition.Primitives;
 using System.Reflection;
 using ImportDefinition = System.ComponentModel.Composition.Primitives.ImportDefinition;
 using Mythos.Core.DependencyInjection;
