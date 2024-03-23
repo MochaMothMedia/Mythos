@@ -1,17 +1,12 @@
-﻿using Microsoft.Extensions.Hosting;
-using Mythos.Core.APIGateway;
-
-namespace Mythos.ASPWebAPI.HostedService
+﻿namespace Mythos.ASPWebAPI.HostedService
 {
 	internal class HostService : IHostedService
 	{
 		private readonly IHostApplicationLifetime _applicationLifetime;
-		private readonly IAPIInitializer _apiInitializer;
 
-		public HostService(IHostApplicationLifetime applicationLifetime, IAPIInitializer apiInitializer)
+		public HostService(IHostApplicationLifetime applicationLifetime)
 		{
 			_applicationLifetime = applicationLifetime;
-			_apiInitializer = apiInitializer;
 		}
 
 		public Task StartAsync(CancellationToken cancellationToken)
@@ -32,7 +27,7 @@ namespace Mythos.ASPWebAPI.HostedService
 
 		private void OnStarted()
 		{
-			_apiInitializer.Initialize();
+			//
 		}
 
 		private void OnStopping()

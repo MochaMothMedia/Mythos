@@ -1,4 +1,4 @@
-﻿using Mythos.Core.APIGateway;
+﻿using Mythos.ASPWebAPI.Characters;
 using Mythos.Core.DependencyInjection;
 using System.ComponentModel.Composition;
 
@@ -9,7 +9,7 @@ namespace Mythos.ASPWebAPI
 	{
 		public void ConfigureServices(IServiceCollection services)
 		{
-			services.AddSingleton<IAPIInitializer, APIInitializer>();
+			//
 		}
 	}
 }
